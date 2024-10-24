@@ -30,7 +30,6 @@ import {
   website,
   threejs,
   DoorList,
-  starbucks,
   jobit,
 } from "../assets";
 
