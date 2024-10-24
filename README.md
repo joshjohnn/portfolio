@@ -14,6 +14,7 @@ This repository contains my personal portfolio built using React and TypeScript.
 
 - **React**: A JavaScript library for building user interfaces.
 - **TypeScript**: A typed superset of JavaScript that compiles to plain JavaScript.
+- **HTML**: The standard markup language for creating web pages.
 - **Tailwind CSS**: A utility-first CSS framework for styling.
 
 ## Getting Started
