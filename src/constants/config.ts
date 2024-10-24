@@ -40,13 +40,13 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "John Doe — 3D Portfolio",
-    fullName: "John Doe",
-    email: "johndoe@mail.com",
+    title: "Joshua John",
+    fullName: "Joshua John",
+    email: "joshua.v.john@gmail.com",
   },
   hero: {
-    name: "John Doe",
-    p: ["I develop 3D visuals, user", "interfaces and web applications"],
+    name: "Josh",
+    p: ["I am a Computer Science & Business student at the University of Maryland and an aspiring software engineer! "],
   },
   contact: {
     p: "Get in touch",
@@ -65,21 +65,27 @@ export const config: TConfig = {
   },
   sections: {
     about: {
-      p: "Introduction",
+      p: "About Me",
       h2: "Overview.",
-      content: `I'm a skilled software developer with experience in TypeScript and
-      JavaScript, and expertise in frameworks like React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`,
+      content: `I'm a dedicated software developer and Computer Science 
+      student at the University of Maryland, with a strong foundation in 
+      Java, Python, JavaScript, and several other programming languages. 
+      I have practical experience building AI applications, user interfaces,
+       and predictive models, leveraging tools like PyCharm, Next.js, Flask, Django, and 
+       various AWS services. My internships at DoorList, Headstarter AI, 
+       and Xficient Inc. have honed my skills in app development, 
+       data analysis, and client collaboration. As a leader in 
+       various student organizations, I've demonstrated my ability 
+       to manage projects and drive initiatives. Let's collaborate 
+       to create innovative solutions that make a real impact!`,
     },
     experience: {
       p: "What I have done so far",
       h2: "Work Experience.",
     },
     feedbacks: {
-      p: "What others say",
-      h2: "Testimonials.",
+      p: "Whats next.",
+      h2: "Upcoming.",
     },
     works: {
       p: "My work",

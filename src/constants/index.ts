@@ -24,14 +24,14 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  xficient,
+  gmu,
+  headstarter,
+  website,
   threejs,
+  DoorList,
+  starbucks,
+  jobit,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -51,11 +51,11 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "AWS Cloud Practitioner",
     icon: mobile,
   },
   {
@@ -63,7 +63,7 @@ const services: TService[] = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "AWS AI Practitioner",
     icon: creator,
   },
 ];
@@ -125,61 +125,55 @@ const technologies: TTechnology[] = [
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
-    icon: starbucks,
+    title: "Software Engineering Fellow",
+    companyName: "Headstarter AI",
+    icon: headstarter,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "July 2024 - September 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built 5+ AI apps and APIs using NextJs, OpenAI, Pinecone, StripeAPI with 98% accuracy as seen by 1000 users.",
+      "Developed products from design to deployment while being coached by Amazon, Bloomberg, and Capital One engineers on Agile, Git, and microservice patterns.",
     ],
   },
   {
-    title: "React Native Developer",
-    companyName: "Tesla",
-    icon: tesla,
+    title: "Business Strategy Intern",
+    companyName: "DoorList",
+    icon: DoorList,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "July 2024 - December 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Identified and engaged with student organizations, influencers, and key stakeholders to expand DoorList’s reach.",
+      "Developed and executed targeted marketing campaigns, increasing app downloads and user interaction.",
+      "Assisted in launching new app features and conducted user data analysis, driving growth and enhancing the user experience in a dynamic startup environment.",
     ],
   },
   {
-    title: "Web Developer",
-    companyName: "Shopify",
-    icon: shopify,
+    title: "Software Engineering Intern",
+    companyName: "Xficient",
+    icon: xficient,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "May 2024 - July 2024",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Collaborated with clients to implement Generative AI solutions, optimizing administrative systems for Third-Party Administrators (TPAs) and other healthcare organizations.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Full stack Developer",
-    companyName: "Meta",
-    icon: meta,
+    title: "Bioinformatics Research and Big Data Intern",
+    companyName: "George Mason University",
+    icon: gmu,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "June 2022 - August 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Analyzed Liver and Kidney Transplant Data using Python to classify and group data to generate policy recommendations.",
+      "Created Models and Graphs of Liver and Kidney Data using R.",
     ],
   },
 ];
 
 const testimonials: TTestimonial[] = [
-  {
+  /*{
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
     name: "Sara Lee",
@@ -202,53 +196,57 @@ const testimonials: TTestimonial[] = [
     designation: "CTO",
     company: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
+  },*/
+]; 
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "This Website",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "My personal portfolio!",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
+        name: "HTML",
+        color: "orange-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "Typescript",
+        color: "green-text-gradient",
+      },
     ],
-    image: carrent,
+    image: website,
     sourceCodeLink: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Django Financial Backend on AWS ECS",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Django-based backend to fetch, store, and backtest financial data from a public API, connecting to a PostgreSQL database to enhance data reliability by 15% and generate performance reports for informed decision-making.",
     tags: [
       {
-        name: "react",
+        name: "django",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "AWS",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "PostgreSql",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/joshjohnn/django-financial-backend",
   },
-  {
+  /*{
     name: "Trip Guide",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
@@ -268,7 +266,7 @@ const projects: TProject[] = [
     ],
     image: tripguide,
     sourceCodeLink: "https://github.com/",
-  },
+  }*/
 ];
 
 export { services, technologies, experiences, testimonials, projects };

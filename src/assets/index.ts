@@ -25,8 +25,13 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import DoorList from "./company/Doorlist.png";
+import gmu from "./company/gmu.jpg";
+import headstarter from "./company/headstarter.jpg";
+import xficient from "./company/xficient.jpg";
 
-import carrent from "./carrent.png";
+
+import website from "./website.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -55,8 +60,12 @@ export {
   meta,
   shopify,
   starbucks,
+  gmu,
+  headstarter,
+  xficient,
+  DoorList,
   tesla,
-  carrent,
+  website,
   jobit,
   tripguide,
 };
