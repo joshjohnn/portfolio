@@ -26,7 +26,7 @@ import {
   docker,
   xficient,
   gmu,
-  headstarter,
+  Leidos,
   website,
   threejs,
   DoorList,
@@ -126,7 +126,7 @@ const experiences: TExperience[] = [
   {
     title: "Software Engineering Fellow",
     companyName: "Headstarter AI",
-    icon: headstarter,
+    icon: Leidos,
     iconBg: "#383E56",
     date: "July 2024 - September 2024",
     points: [

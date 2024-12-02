@@ -27,7 +27,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import DoorList from "./company/Doorlist.png";
 import gmu from "./company/gmu.jpg";
-import headstarter from "./company/headstarter.jpg";
+import Leidos from "./company/Leidos-logo.png";
 import xficient from "./company/xficient.jpg";
 
 
@@ -61,7 +61,7 @@ export {
   shopify,
   starbucks,
   gmu,
-  headstarter,
+  Leidos,
   xficient,
   DoorList,
   tesla,
