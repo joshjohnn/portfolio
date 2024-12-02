@@ -128,7 +128,7 @@ const experiences: TExperience[] = [
     companyName: "Leidos",
     icon: Leidos,
     iconBg: "#383E56",
-    date: "July 2024 - September 2024",
+    date: "May 2025 - August 2025",
     points: [
       "Designed and deployed a custom application using  GitLab, implementing scalable database architectures, automating CI/CD pipelines, and ensuring robust, secure software solutions through testing, debugging, and adherence to best practices.",
       "Optimized software performance by implementing RESTful APIs, designing efficient database queries, and integrating third-party tools for advanced data analytics, while leveraging Agile methodologies to deliver solutions with a focus on scalability and maintainability.",
