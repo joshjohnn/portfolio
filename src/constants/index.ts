@@ -31,6 +31,7 @@ import {
   threejs,
   DoorList,
   jobit,
+  blockify, 
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -245,27 +246,29 @@ const projects: TProject[] = [
     image: jobit,
     sourceCodeLink: "https://github.com/joshjohnn/django-financial-backend",
   },
-  /*{
-    name: "Trip Guide",
+  {
+    name: "Blockify",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+  "A simple, functional cryptocurrency trading dashboard/educational platform. Includes a web-scraping sentiment analyzer as well as real-time charts and data.",
+
     tags: [
       {
-        name: "nextjs",
+        name: "MERN",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "pytorch",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "MongoDB",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: blockify,
     sourceCodeLink: "https://github.com/",
-  }*/
+  }
+  
 ];
-
 export { services, technologies, experiences, testimonials, projects };
+

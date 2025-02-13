@@ -29,6 +29,7 @@ import DoorList from "./company/Doorlist.png";
 import gmu from "./company/gmu.jpg";
 import Leidos from "./company/leidos-logo2.png";
 import xficient from "./company/xficient.jpg";
+import blockify from "./company/ blockify.png";
 
 
 import website from "./website.png";
@@ -68,4 +69,5 @@ export {
   website,
   jobit,
   tripguide,
+  blockify,
 };
