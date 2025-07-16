@@ -125,14 +125,14 @@ const technologies: TTechnology[] = [
 
 const experiences: TExperience[] = [
   {
-    title: "Software Developer Intern",
-    companyName: "Leidos",
+    title: "Software Engineer Intern",
+    companyName: "Capital One",
     icon: Leidos,
     iconBg: "#383E56",
     date: "May 2025 - August 2025",
     points: [
-      "Designed and deployed a custom application using  GitLab, implementing scalable database architectures, automating CI/CD pipelines, and ensuring robust, secure software solutions through testing, debugging, and adherence to best practices.",
-      "Optimized software performance by implementing RESTful APIs, designing efficient database queries, and integrating third-party tools for advanced data analytics, while leveraging Agile methodologies to deliver solutions with a focus on scalability and maintainability.",
+      "Developed scalable data scanning workflows for Capital One’s Enterprise Data Scan platform using AWS S3, Apache Spark, Java, Python, and Bloom filters to detect and flag sensitive information across 50M+ bank accounts weekly—boosting flagging accuracy by 40%.",
+      "Improved platform throughput by 35% and reduced processing time by 30% through distributed pipeline optimizations,leading to a 25% reduction in AWS infrastructure costs while maintaining high accuracy and scalability across petabyte-scale datasets.",
     ],
   },
   {
