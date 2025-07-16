@@ -1,6 +1,6 @@
 # React 3D Portfolio
 
-This repository contains my personal portfolio built using React and TypeScript. The portfolio showcases my skills, projects, and experiences in a visually appealing manner.
+This repository contains my personal portfolio built using React and TypeScript. The portfolio showcases my skills, projects, and experiences in a visually appealing manner. You can visit it at https://josh-john-portfolio.vercel.app/  
 
 ## Features
 
